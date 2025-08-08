@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>provile | Jaisyurrahman</title>
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      scroll-behavior: smooth;
+      background: #000000;
+      color: #ffffff;
+    }
+
+    header {
+  background-image: url('https://i.imgur.com/T64WQ2R.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: black;
+  padding: 4rem 2rem;
+  text-align: 70px;
+  position: relative;
+  height: 500px;
+}
+
+header::before {
+  width: auto;
+  height: auto;
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: background-color rgba(0, 0, 0, 0.5);
+  z-index: 0;
+}
+
+header * {
+  position: relative;
+  z-index: index 1;;
+}
+
+
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      margin-top: 0.5rem;
+    }
+
+    section {
+      max-width: 800px;
+      margin: auto;
+      padding: 4rem 1rem;
+    }
+
+    .profile-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid black;
+  position: absolute;
+  top: 30px;
+  right: 2rem;
+  object-fit: cover;
+  z-index: 2;
+}
+.profile-img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: #0077b6;
+}
+    .intro {
+      text-align: center;
+    }
+
+    .btn-contact {
+      color: white;
+      padding: 0.7rem 1.5rem;
+      border-radius: 8px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 1rem;
+      transition: background 0.3s;
+    }
+
+    .btn-contact:hover {
+      background: #0077b6;
+    }
+
+    .socials {
+      margin-top: 1rem;
+    }
+
+    .socials a {
+      margin: 0 0.5rem;
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 1.2rem;
+      transition: color 0.3s;
+      transform:scale(2.00)
+    }
+
+    .socials a:hover {
+      color: #ffffff;
+      transform:scale(2.00)
+    }
+
+    .projects {
+      display: grid;
+      gap: 2rem;
+      text-align: center;
+    }
+
+    .project {
+      padding: 1.5rem;
+      border: 1px solid #ccc;
+      border-radius: 16px;
+      background: #2C3E50;
+      box-shadow: #0077b6;
+      text-align: center;
+      margin:30px auto;
+      transition: transform 0.3s ease,box-shadow 0.3s ease;
+    }
+
+    .project:hover {
+      transform: translateY(-5px);
+      box-shadow: #0077b6;
+      box-sizing: border-box;
+    }
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 600px;
+  margin: 30px auto;
+  border: 5px solid #2C3E50;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 120px;
+  height: 120px;
+  margin: 5px;
+  background-color: #2C3E50;
+  border-radius: 16px;
+  animation: fadeLoop 1.5s ease-in-out infinite;
+}
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #2C3E50;
+      margin-top: 2rem;
+    }
+
+    @keyframes fadeLoop {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+}
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="header" data-aos="fade-down" data-aos-delay="300">
+    <img src="https://i.imgur.com/FDNG2dI.jpeg" alt="Foto Profil" class="profile-img">
+    <h1>Jaisyurrahman</h1>
+    <p>Accessed services :</p>
+    <div class="header" data-aos="fade-right" data-aos-delay="100"><h2>~Full-Stack Developer</h2></div>
+    <div class="header" data-aos="fade-right" data-aos-delay="200"><h2>~Software Engineer</h2></div>
+    <div class="header" data-aos="fade-right" data-aos-delay="300"><h2>~Web Developer</h2></div>
+    <div class="header" data-aos="fade-right" data-aos-delay="400"><h2>~UI/UX Designer</h2></div>
+    <div class="header" data-aos="fade-right" data-aos-delay="500"><h2>~Mobile Developer</h2></div>
+    <div class="header" data-aos="fade-right" data-aos-delay="600"><h2>~Cyber Security</h2></div>
+  </header>
+
+  <section class="intro" data-aos="fade-up">
+    
+    <p>"I aspire to become a Full-Stack Developer and work as a Software Engineer remotely for an international company in the future."</p>
+   <a href="mailto:jaisyurrahman3@gmail.com?subject=Hello%20Jaisy&body=Halo%20saya%20tertarik%20dengan%20portofolio%20Anda." class="btn-contact">
+  <h2>Contact me at:</h2>👉👇👈</a>
+    <div class="socials">
+      <a href="https://www.linkedin.com/in/rahman-z-242330377?utm_source=share&utm_campaign=share_via
+      utm_content=profile&utm_medium=android_app"><div class="btn-contact"><img src="https://i.imgur.com/Kw7vamz.png" width="50px"></a></div>
+      <a href="https://wa.me/qr/S4LELXMAUWRDI1"><div class="btn-contact"><img src="https://i.imgur.com/WT7wBhp.png" width="50px"></a></div>
+      <a href="https://www.instagram.com/ez_zet07?utm_source=qr&igsh=b3Z2YXJxY3VxN2Zl"><div class="btn-contact"><img src="https://i.imgur.com/3fqV5ux.png" width="50px"></a></div>
+    </div>
+  </section>
+<While loop>
+   <div class="container">
+    <div class="box" style="animation-delay: 0.0s">1</div>
+     <div class="box" sttle="animation-delay: 0.1s">2</div> 
+      <div class="box" style="animation-delay: 0.2s">3</div>  
+       <div class="box" style="animation-delay: 0.3s">4</div>
+        <div class="box" style="animation-delay: 0.4s">5</div>
+         <div class="box" style="animation-delay: 0.5s">6</div>
+          <div class="box" style="animation-delay: 0.7s">7</div>
+  </div>
+</break>
+</while>
+
+  <section>
+  <div class="projects">
+    <h2 data-aos="fade-right">Featured Projects :</h2>
+  </div>
+  
+  <div class="project" data-aos="zoom-in" data-aos-delay="100">
+      <h3>Website Portofolio</h3>
+      <p>Website pribadi menggunakan HTML, CSS, dan JavaScript dengan tampilan responsif dan interaktif.</p>
+    </div>
+
+    <div class="project" data-aos="zoom-in" data-aos-delay="200">
+      <h3>Aplikasi To-Do List</h3>
+      <p>To-do list dengan fitur drag-and-drop, local storage, dan animasi menarik.</p>
+    </div>
+
+    <div class="project" data-aos="zoom-in" data-aos-delay="300">
+      <h3>Dashboard Admin</h3>
+      <p>Dashboard menggunakan chart.js, dark mode, dan sistem login.</p>
+    </div>
+  </section>
+
+  <footer data-aos="fade-up">
+    <p>© Jasyurrahman poured his heart into this portfolio, battling endless syntax errors along the way—starting from August 2nd, 2025 (since 02,08,25) 💻 and ☕</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000, 
+      once: true 
+    });
+  </script>
+</body>
+</html> 
